@@ -79,11 +79,11 @@ const MemeGenerator = () => {
                 >Get a new meme image</button>
             </div>
 
-            <div className="meme-image relative my-9">
+            <div className="meme-image text-center relative my-9">
                 <hr />
-                <p className="top-text absolute top-[1rem] left-[10vw] text-center p-auto text-white md:text-[2rem] font-bold outline-black">{formData.topText.toUpperCase()}</p>
+                <p className="top-text absolute top-[2rem] left-[10vw] md:left-[25vw] break-all text-center p-auto text-white md:text-[2rem] font-bold outline-black">{formData.topText.toUpperCase()}</p>
                 <img src={formData.memeUrl} alt="random-meme" className='mx-auto my-5' />
-                <p className="bottom-text absolute bottom-[1rem] left-[10vw] text-center p-auto text-white md:text-[2rem] font-bold outline-black">{formData.bottomText.toUpperCase()}</p>
+                <p className="bottom-text absolute bottom-[2rem] left-[10vw] md:left-[25vw] break-all text-center p-auto text-white md:text-[2rem] font-bold outline-black">{formData.bottomText.toUpperCase()}</p>
             </div>
 
         </main>
