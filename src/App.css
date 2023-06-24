@@ -1,0 +1,5 @@
+/* Custom Outline Utility */
+.outline-black {
+    text-shadow: -1px -1px 10px #000, 1px -1px 10px #000, -1px 1px 10px #000, 1px 1px 10px #000;
+  }
+  
